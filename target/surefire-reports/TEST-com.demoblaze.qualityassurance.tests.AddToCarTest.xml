@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.demoblaze.qualityassurance.tests.AddToCarTest" time="33.335" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="16"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/carlos.corona/src/demoblaze-frontend-test/target/test-classes:/Users/carlos.corona/src/demoblaze-frontend-test/target/classes:/Users/carlos.corona/.m2/repository/com/microsoft/playwright/playwright/1.51.0/playwright-1.51.0.jar:/Users/carlos.corona/.m2/repository/com/google/code/gson/gson/2.12.1/gson-2.12.1.jar:/Users/carlos.corona/.m2/repository/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.jar:/Users/carlos.corona/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/carlos.corona/.m2/repository/com/microsoft/playwright/driver/1.51.0/driver-1.51.0.jar:/Users/carlos.corona/.m2/repository/com/microsoft/playwright/driver-bundle/1.51.0/driver-bundle-1.51.0.jar:/Users/carlos.corona/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3.jar:/Users/carlos.corona/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar:/Users/carlos.corona/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar:/Users/carlos.corona/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/carlos.corona/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3.jar:/Users/carlos.corona/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar:/Users/carlos.corona/.m2/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar:/Users/carlos.corona/.m2/repository/io/qameta/allure/allure-junit5/2.24.0/allure-junit5-2.24.0.jar:/Users/carlos.corona/.m2/repository/io/qameta/allure/allure-junit-platform/2.24.0/allure-junit-platform-2.24.0.jar:/Users/carlos.corona/.m2/repository/io/qameta/allure/allure-java-commons/2.24.0/allure-java-commons-2.24.0.jar:/Users/carlos.corona/.m2/repository/io/qameta/allure/allure-model/2.24.0/allure-model-2.24.0.jar:/Users/carlos.corona/.m2/repository/io/qameta/allure/allure-test-filter/2.24.0/allure-test-filter-2.24.0.jar:/Users/carlos.corona/.m2/repository/org/junit/platform/junit-platform-launcher/1.9.2/junit-platform-launcher-1.9.2.jar:/Users/carlos.corona/.m2/repository/org/testng/testng/7.11.0/testng-7.11.0.jar:/Users/carlos.corona/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/carlos.corona/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/carlos.corona/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Argentina/Buenos_Aires"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="419"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-16.0.2.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/carlos.corona/src/demoblaze-frontend-test/target/surefire/surefirebooter-20250529110422969_3.jar /Users/carlos.corona/src/demoblaze-frontend-test/target/surefire 2025-05-29T11-04-22_841-jvmRun1 surefire-20250529110422969_1tmp surefire_0-20250529110422969_2tmp"/>
+    <property name="http.nonProxyHosts" value="dns.google|*.dns.google|one.one.one.one|*.one.one.one.one|beacons.gvt2.com|*.beacons.gvt2.com|beacons2.gvt2.com|*.beacons2.gvt2.com|ocsp.digicert.com|*.ocsp.digicert.com"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/carlos.corona/src/demoblaze-frontend-test/target/test-classes:/Users/carlos.corona/src/demoblaze-frontend-test/target/classes:/Users/carlos.corona/.m2/repository/com/microsoft/playwright/playwright/1.51.0/playwright-1.51.0.jar:/Users/carlos.corona/.m2/repository/com/google/code/gson/gson/2.12.1/gson-2.12.1.jar:/Users/carlos.corona/.m2/repository/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.jar:/Users/carlos.corona/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/carlos.corona/.m2/repository/com/microsoft/playwright/driver/1.51.0/driver-1.51.0.jar:/Users/carlos.corona/.m2/repository/com/microsoft/playwright/driver-bundle/1.51.0/driver-bundle-1.51.0.jar:/Users/carlos.corona/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3.jar:/Users/carlos.corona/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar:/Users/carlos.corona/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar:/Users/carlos.corona/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/carlos.corona/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3.jar:/Users/carlos.corona/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar:/Users/carlos.corona/.m2/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar:/Users/carlos.corona/.m2/repository/io/qameta/allure/allure-junit5/2.24.0/allure-junit5-2.24.0.jar:/Users/carlos.corona/.m2/repository/io/qameta/allure/allure-junit-platform/2.24.0/allure-junit-platform-2.24.0.jar:/Users/carlos.corona/.m2/repository/io/qameta/allure/allure-java-commons/2.24.0/allure-java-commons-2.24.0.jar:/Users/carlos.corona/.m2/repository/io/qameta/allure/allure-model/2.24.0/allure-model-2.24.0.jar:/Users/carlos.corona/.m2/repository/io/qameta/allure/allure-test-filter/2.24.0/allure-test-filter-2.24.0.jar:/Users/carlos.corona/.m2/repository/org/junit/platform/junit-platform-launcher/1.9.2/junit-platform-launcher-1.9.2.jar:/Users/carlos.corona/.m2/repository/org/testng/testng/7.11.0/testng-7.11.0.jar:/Users/carlos.corona/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/carlos.corona/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/carlos.corona/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/carlos.corona"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-07-20"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-16.0.2.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/carlos.corona/src/demoblaze-frontend-test"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/carlos.corona/src/demoblaze-frontend-test/target/surefire/surefirebooter-20250529110422969_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="dns.google|*.dns.google|one.one.one.one|*.one.one.one.one|beacons.gvt2.com|*.beacons.gvt2.com|beacons2.gvt2.com|*.beacons2.gvt2.com|ocsp.digicert.com|*.ocsp.digicert.com"/>
+    <property name="java.runtime.version" value="16.0.2+7-67"/>
+    <property name="user.name" value="carlos.corona"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="11.4"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="US-ASCII"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/carlos.corona/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/6t/yh1n3jqx6kl_r2wrrpjbj6z40000gn/T/"/>
+    <property name="java.version" value="16.0.2"/>
+    <property name="user.dir" value="/Users/carlos.corona/src/demoblaze-frontend-test"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/carlos.corona/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="16.0.2+7-67"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="dns.google|*.dns.google|one.one.one.one|*.one.one.one.one|beacons.gvt2.com|*.beacons.gvt2.com|beacons2.gvt2.com|*.beacons2.gvt2.com|ocsp.digicert.com|*.ocsp.digicert.com"/>
+    <property name="java.class.version" value="60.0"/>
+  </properties>
+  <testcase name="addProductToCar" classname="com.demoblaze.qualityassurance.tests.AddToCarTest" time="20.899">
+    <system-out><![CDATA[browser name is : chromium
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="signUp_logIn" classname="com.demoblaze.qualityassurance.tests.AddToCarTest" time="5.909">
+    <system-out><![CDATA[browser name is : chromium
+]]></system-out>
+  </testcase>
+  <testcase name="completePurchase" classname="com.demoblaze.qualityassurance.tests.AddToCarTest" time="6.409">
+    <system-out><![CDATA[browser name is : chromium
+]]></system-out>
+  </testcase>
+</testsuite>
