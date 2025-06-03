@@ -1,4 +1,4 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","20823","addProductToCar()","","Thu May 29 11:04:24 GMT-03:00 2025","passed","Thu May 29 11:04:44 GMT-03:00 2025","","com.demoblaze.qualityassurance.tests.AddToCarTest","com.demoblaze.qualityassurance.tests.AddToCarTest","addProductToCar"
-"","6408","completePurchase()","","Thu May 29 11:04:50 GMT-03:00 2025","passed","Thu May 29 11:04:57 GMT-03:00 2025","","com.demoblaze.qualityassurance.tests.AddToCarTest","com.demoblaze.qualityassurance.tests.AddToCarTest","completePurchase"
-"","5907","signUp_logIn()","","Thu May 29 11:04:44 GMT-03:00 2025","passed","Thu May 29 11:04:50 GMT-03:00 2025","","com.demoblaze.qualityassurance.tests.AddToCarTest","com.demoblaze.qualityassurance.tests.AddToCarTest","signUp_logIn"
+"","33164","signUp_logIn()","","Tue Jun 03 17:46:19 GMT-03:00 2025","broken","Tue Jun 03 17:46:52 GMT-03:00 2025","","com.demoblaze.qualityassurance.tests.AddToCarTest","com.demoblaze.qualityassurance.tests.AddToCarTest","signUp_logIn"
+"","20457","addProductToCar()","","Tue Jun 03 17:45:59 GMT-03:00 2025","passed","Tue Jun 03 17:46:19 GMT-03:00 2025","","com.demoblaze.qualityassurance.tests.AddToCarTest","com.demoblaze.qualityassurance.tests.AddToCarTest","addProductToCar"
+"","7613","completePurchase()","","Tue Jun 03 17:46:52 GMT-03:00 2025","passed","Tue Jun 03 17:47:00 GMT-03:00 2025","","com.demoblaze.qualityassurance.tests.AddToCarTest","com.demoblaze.qualityassurance.tests.AddToCarTest","completePurchase"
