@@ -19,8 +19,8 @@ public class SingUpAndLogin {
 
     public Locator successful(){
         String numero = String.valueOf((int)(Math.random() * 1000));
-        login.successful(numero);
         singUp.successful(numero);
+        login.successful(numero);
         return homePage.getWelcome();
     }
 }

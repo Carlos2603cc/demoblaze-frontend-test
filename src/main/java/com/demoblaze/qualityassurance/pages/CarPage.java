@@ -20,6 +20,7 @@ public class CarPage {
     }
 
     public void clickOnbuttonPlaceOrder(){
+        page.locator(CarUF.buttonDelete).waitFor(new Locator.WaitForOptions().setState(WaitForSelectorState.VISIBLE));
         page.locator(CarUF.buttonPlaceOrder).waitFor(new Locator.WaitForOptions().setState(WaitForSelectorState.VISIBLE));
         ScreenshotHelper.attachScreenshot(page);
         page.click(CarUF.buttonPlaceOrder);
@@ -31,23 +32,18 @@ public class CarPage {
     }
 
     public void enterContry(String contry){
-        ScreenshotHelper.attachScreenshot(page);
         page.fill(CarUF.Contry, contry);
     }
     public void enterCity(String city){
-        ScreenshotHelper.attachScreenshot(page);
         page.fill(CarUF.City, city);
     }
     public void enterCreditCard(String creditCar){
-        ScreenshotHelper.attachScreenshot(page);
         page.fill(CarUF.CreditCard, creditCar);
     }
     public void enterMonth(String month){
-        ScreenshotHelper.attachScreenshot(page);
         page.fill(CarUF.Month, month);
     }
     public void enterYear(String year){
-        ScreenshotHelper.attachScreenshot(page);
         page.fill(CarUF.Year, year);
     }
 

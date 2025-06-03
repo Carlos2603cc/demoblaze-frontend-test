@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.demoblaze.qualityassurance.tests.AddToCarTest" time="61.467" tests="3" errors="1" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.demoblaze.qualityassurance.tests.AddToCarTest" time="34.913" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="16"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="419"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-16.0.2.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/carlos.corona/src/demoblaze-frontend-test/target/surefire/surefirebooter-20250603174558056_3.jar /Users/carlos.corona/src/demoblaze-frontend-test/target/surefire 2025-06-03T17-45-57_902-jvmRun1 surefire-20250603174558056_1tmp surefire_0-20250603174558056_2tmp"/>
+    <property name="sun.java.command" value="/Users/carlos.corona/src/demoblaze-frontend-test/target/surefire/surefirebooter-20250603182937954_3.jar /Users/carlos.corona/src/demoblaze-frontend-test/target/surefire 2025-06-03T18-29-37_808-jvmRun1 surefire-20250603182937954_1tmp surefire_0-20250603182937954_2tmp"/>
     <property name="http.nonProxyHosts" value="dns.google|*.dns.google|one.one.one.one|*.one.one.one.one|beacons.gvt2.com|*.beacons.gvt2.com|beacons2.gvt2.com|*.beacons2.gvt2.com|ocsp.digicert.com|*.ocsp.digicert.com"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/carlos.corona/src/demoblaze-frontend-test/target/test-classes:/Users/carlos.corona/src/demoblaze-frontend-test/target/classes:/Users/carlos.corona/.m2/repository/com/microsoft/playwright/playwright/1.51.0/playwright-1.51.0.jar:/Users/carlos.corona/.m2/repository/com/google/code/gson/gson/2.12.1/gson-2.12.1.jar:/Users/carlos.corona/.m2/repository/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.jar:/Users/carlos.corona/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/carlos.corona/.m2/repository/com/microsoft/playwright/driver/1.51.0/driver-1.51.0.jar:/Users/carlos.corona/.m2/repository/com/microsoft/playwright/driver-bundle/1.51.0/driver-bundle-1.51.0.jar:/Users/carlos.corona/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3.jar:/Users/carlos.corona/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar:/Users/carlos.corona/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar:/Users/carlos.corona/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/carlos.corona/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3.jar:/Users/carlos.corona/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar:/Users/carlos.corona/.m2/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar:/Users/carlos.corona/.m2/repository/io/qameta/allure/allure-junit5/2.24.0/allure-junit5-2.24.0.jar:/Users/carlos.corona/.m2/repository/io/qameta/allure/allure-junit-platform/2.24.0/allure-junit-platform-2.24.0.jar:/Users/carlos.corona/.m2/repository/io/qameta/allure/allure-test-filter/2.24.0/allure-test-filter-2.24.0.jar:/Users/carlos.corona/.m2/repository/org/junit/platform/junit-platform-launcher/1.9.2/junit-platform-launcher-1.9.2.jar:/Users/carlos.corona/.m2/repository/io/qameta/allure/allure-java-commons/2.24.0/allure-java-commons-2.24.0.jar:/Users/carlos.corona/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/carlos.corona/.m2/repository/io/qameta/allure/allure-model/2.24.0/allure-model-2.24.0.jar:/Users/carlos.corona/.m2/repository/org/testng/testng/7.11.0/testng-7.11.0.jar:/Users/carlos.corona/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/carlos.corona/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:"/>
@@ -29,7 +29,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/Users/carlos.corona/src/demoblaze-frontend-test/target/surefire/surefirebooter-20250603174558056_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/carlos.corona/src/demoblaze-frontend-test/target/surefire/surefirebooter-20250603182937954_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="dns.google|*.dns.google|one.one.one.one|*.one.one.one.one|beacons.gvt2.com|*.beacons.gvt2.com|beacons2.gvt2.com|*.beacons2.gvt2.com|ocsp.digicert.com|*.ocsp.digicert.com"/>
     <property name="java.runtime.version" value="16.0.2+7-67"/>
@@ -54,7 +54,7 @@
     <property name="socksNonProxyHosts" value="dns.google|*.dns.google|one.one.one.one|*.one.one.one.one|beacons.gvt2.com|*.beacons.gvt2.com|beacons2.gvt2.com|*.beacons2.gvt2.com|ocsp.digicert.com|*.ocsp.digicert.com"/>
     <property name="java.class.version" value="60.0"/>
   </properties>
-  <testcase name="addProductToCar" classname="com.demoblaze.qualityassurance.tests.AddToCarTest" time="20.554">
+  <testcase name="addProductToCar" classname="com.demoblaze.qualityassurance.tests.AddToCarTest" time="19.981">
     <system-out><![CDATA[browser name is : chromium
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
@@ -62,176 +62,11 @@ SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="signUp_logIn" classname="com.demoblaze.qualityassurance.tests.AddToCarTest" time="33.171">
-    <error message="Error {&#10;  message=&apos;Timeout 30000ms exceeded.&#10;  name=&apos;TimeoutError&#10;  stack=&apos;TimeoutError: Timeout 30000ms exceeded.&#10;    at ProgressController.run (/private/var/folders/6t/yh1n3jqx6kl_r2wrrpjbj6z40000gn/T/playwright-java-2299511669114587768/package/lib/server/progress.js:75:26)&#10;    at Frame.click (/private/var/folders/6t/yh1n3jqx6kl_r2wrrpjbj6z40000gn/T/playwright-java-2299511669114587768/package/lib/server/frames.js:1022:23)&#10;    at FrameDispatcher.click (/private/var/folders/6t/yh1n3jqx6kl_r2wrrpjbj6z40000gn/T/playwright-java-2299511669114587768/package/lib/server/dispatchers/frameDispatcher.js:157:30)&#10;    at FrameDispatcher._handleCommand (/private/var/folders/6t/yh1n3jqx6kl_r2wrrpjbj6z40000gn/T/playwright-java-2299511669114587768/package/lib/server/dispatchers/dispatcher.js:96:40)&#10;    at DispatcherConnection.dispatch (/private/var/folders/6t/yh1n3jqx6kl_r2wrrpjbj6z40000gn/T/playwright-java-2299511669114587768/package/lib/server/dispatchers/dispatcher.js:366:39)&#10;}&#10;Call log:&#10;-   - waiting for locator(&quot;#signin2&quot;)&#10;-     - locator resolved to &lt;a href=&quot;#&quot; id=&quot;signin2&quot; class=&quot;nav-link&quot; data-toggle=&quot;modal&quot; data-target=&quot;#signInModal&quot;&gt;Sign up&lt;/a&gt;&#10;-   - attempting click action&#10;-     2 × waiting for element to be visible, enabled and stable&#10;-       - element is visible, enabled and stable&#10;-       - scrolling into view if needed&#10;-       - done scrolling&#10;-       - &lt;div tabindex=&quot;-1&quot; role=&quot;dialog&quot; id=&quot;logInModal&quot; class=&quot;modal fade show&quot; aria-labelledby=&quot;logInModalLabel&quot;&gt;…&lt;/div&gt; intercepts pointer events&#10;-     - retrying click action&#10;-     - waiting 20ms&#10;-     2 × waiting for element to be visible, enabled and stable&#10;-       - element is visible, enabled and stable&#10;-       - scrolling into view if needed&#10;-       - done scrolling&#10;-       - &lt;div tabindex=&quot;-1&quot; role=&quot;dialog&quot; id=&quot;logInModal&quot; class=&quot;modal fade show&quot; aria-labelledby=&quot;logInModalLabel&quot;&gt;…&lt;/div&gt; intercepts pointer events&#10;-     - retrying click action&#10;-       - waiting 100ms&#10;-     56 × waiting for element to be visible, enabled and stable&#10;-        - element is visible, enabled and stable&#10;-        - scrolling into view if needed&#10;-        - done scrolling&#10;-        - &lt;div tabindex=&quot;-1&quot; role=&quot;dialog&quot; id=&quot;logInModal&quot; class=&quot;modal fade show&quot; aria-labelledby=&quot;logInModalLabel&quot;&gt;…&lt;/div&gt; intercepts pointer events&#10;-      - retrying click action&#10;-        - waiting 500ms&#10;" type="com.microsoft.playwright.TimeoutError"><![CDATA[com.microsoft.playwright.TimeoutError: 
-Error {
-  message='Timeout 30000ms exceeded.
-  name='TimeoutError
-  stack='TimeoutError: Timeout 30000ms exceeded.
-    at ProgressController.run (/private/var/folders/6t/yh1n3jqx6kl_r2wrrpjbj6z40000gn/T/playwright-java-2299511669114587768/package/lib/server/progress.js:75:26)
-    at Frame.click (/private/var/folders/6t/yh1n3jqx6kl_r2wrrpjbj6z40000gn/T/playwright-java-2299511669114587768/package/lib/server/frames.js:1022:23)
-    at FrameDispatcher.click (/private/var/folders/6t/yh1n3jqx6kl_r2wrrpjbj6z40000gn/T/playwright-java-2299511669114587768/package/lib/server/dispatchers/frameDispatcher.js:157:30)
-    at FrameDispatcher._handleCommand (/private/var/folders/6t/yh1n3jqx6kl_r2wrrpjbj6z40000gn/T/playwright-java-2299511669114587768/package/lib/server/dispatchers/dispatcher.js:96:40)
-    at DispatcherConnection.dispatch (/private/var/folders/6t/yh1n3jqx6kl_r2wrrpjbj6z40000gn/T/playwright-java-2299511669114587768/package/lib/server/dispatchers/dispatcher.js:366:39)
-}
-Call log:
--   - waiting for locator("#signin2")
--     - locator resolved to <a href="#" id="signin2" class="nav-link" data-toggle="modal" data-target="#signInModal">Sign up</a>
--   - attempting click action
--     2 × waiting for element to be visible, enabled and stable
--       - element is visible, enabled and stable
--       - scrolling into view if needed
--       - done scrolling
--       - <div tabindex="-1" role="dialog" id="logInModal" class="modal fade show" aria-labelledby="logInModalLabel">…</div> intercepts pointer events
--     - retrying click action
--     - waiting 20ms
--     2 × waiting for element to be visible, enabled and stable
--       - element is visible, enabled and stable
--       - scrolling into view if needed
--       - done scrolling
--       - <div tabindex="-1" role="dialog" id="logInModal" class="modal fade show" aria-labelledby="logInModalLabel">…</div> intercepts pointer events
--     - retrying click action
--       - waiting 100ms
--     56 × waiting for element to be visible, enabled and stable
--        - element is visible, enabled and stable
--        - scrolling into view if needed
--        - done scrolling
--        - <div tabindex="-1" role="dialog" id="logInModal" class="modal fade show" aria-labelledby="logInModalLabel">…</div> intercepts pointer events
--      - retrying click action
--        - waiting 500ms
-
-	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
-	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
-	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
-	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
-	at com.microsoft.playwright.impl.FrameImpl.clickImpl(FrameImpl.java:252)
-	at com.microsoft.playwright.impl.PageImpl.lambda$click$18(PageImpl.java:688)
-	at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
-	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
-	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
-	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
-	at com.microsoft.playwright.impl.PageImpl.click(PageImpl.java:687)
-	at com.microsoft.playwright.Page.click(Page.java:3931)
-	at com.demoblaze.qualityassurance.pages.SingUpPage.signUp(SingUpPage.java:14)
-	at com.demoblaze.qualityassurance.tasks.SingUp.successful(SingUp.java:15)
-	at com.demoblaze.qualityassurance.tasks.SingUpAndLogin.successful(SingUpAndLogin.java:23)
-	at com.demoblaze.qualityassurance.tests.AddToCarTest.signUp_logIn(AddToCarTest.java:38)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
-	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
-	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
-	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
-	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
-	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
-	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
-	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
-	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
-	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
-	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: com.microsoft.playwright.TimeoutError: Error {
-  message='Timeout 30000ms exceeded.
-  name='TimeoutError
-  stack='TimeoutError: Timeout 30000ms exceeded.
-    at ProgressController.run (/private/var/folders/6t/yh1n3jqx6kl_r2wrrpjbj6z40000gn/T/playwright-java-2299511669114587768/package/lib/server/progress.js:75:26)
-    at Frame.click (/private/var/folders/6t/yh1n3jqx6kl_r2wrrpjbj6z40000gn/T/playwright-java-2299511669114587768/package/lib/server/frames.js:1022:23)
-    at FrameDispatcher.click (/private/var/folders/6t/yh1n3jqx6kl_r2wrrpjbj6z40000gn/T/playwright-java-2299511669114587768/package/lib/server/dispatchers/frameDispatcher.js:157:30)
-    at FrameDispatcher._handleCommand (/private/var/folders/6t/yh1n3jqx6kl_r2wrrpjbj6z40000gn/T/playwright-java-2299511669114587768/package/lib/server/dispatchers/dispatcher.js:96:40)
-    at DispatcherConnection.dispatch (/private/var/folders/6t/yh1n3jqx6kl_r2wrrpjbj6z40000gn/T/playwright-java-2299511669114587768/package/lib/server/dispatchers/dispatcher.js:366:39)
-}
-Call log:
--   - waiting for locator("#signin2")
--     - locator resolved to <a href="#" id="signin2" class="nav-link" data-toggle="modal" data-target="#signInModal">Sign up</a>
--   - attempting click action
--     2 × waiting for element to be visible, enabled and stable
--       - element is visible, enabled and stable
--       - scrolling into view if needed
--       - done scrolling
--       - <div tabindex="-1" role="dialog" id="logInModal" class="modal fade show" aria-labelledby="logInModalLabel">…</div> intercepts pointer events
--     - retrying click action
--     - waiting 20ms
--     2 × waiting for element to be visible, enabled and stable
--       - element is visible, enabled and stable
--       - scrolling into view if needed
--       - done scrolling
--       - <div tabindex="-1" role="dialog" id="logInModal" class="modal fade show" aria-labelledby="logInModalLabel">…</div> intercepts pointer events
--     - retrying click action
--       - waiting 100ms
--     56 × waiting for element to be visible, enabled and stable
--        - element is visible, enabled and stable
--        - scrolling into view if needed
--        - done scrolling
--        - <div tabindex="-1" role="dialog" id="logInModal" class="modal fade show" aria-labelledby="logInModalLabel">…</div> intercepts pointer events
--      - retrying click action
--        - waiting 500ms
-
-	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
-	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
-	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
-	... 85 more
-]]></error>
+  <testcase name="signUp_logIn" classname="com.demoblaze.qualityassurance.tests.AddToCarTest" time="6.23">
     <system-out><![CDATA[browser name is : chromium
 ]]></system-out>
   </testcase>
-  <testcase name="completePurchase" classname="com.demoblaze.qualityassurance.tests.AddToCarTest" time="7.615">
+  <testcase name="completePurchase" classname="com.demoblaze.qualityassurance.tests.AddToCarTest" time="8.589">
     <system-out><![CDATA[browser name is : chromium
 ]]></system-out>
   </testcase>

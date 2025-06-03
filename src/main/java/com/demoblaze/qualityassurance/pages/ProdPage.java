@@ -31,7 +31,6 @@ public class ProdPage {
     }
 
     public void clickOnButtonCar(){
-        ScreenshotHelper.attachScreenshot(page);
         page.click(ProdUF.buttonCar);
     }
 }
