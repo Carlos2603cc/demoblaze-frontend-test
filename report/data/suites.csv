@@ -1,4 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","33164","signUp_logIn()","","Tue Jun 03 17:46:19 GMT-03:00 2025","broken","Tue Jun 03 17:46:52 GMT-03:00 2025","","com.demoblaze.qualityassurance.tests.AddToCarTest","com.demoblaze.qualityassurance.tests.AddToCarTest","signUp_logIn"
-"","20457","addProductToCar()","","Tue Jun 03 17:45:59 GMT-03:00 2025","passed","Tue Jun 03 17:46:19 GMT-03:00 2025","","com.demoblaze.qualityassurance.tests.AddToCarTest","com.demoblaze.qualityassurance.tests.AddToCarTest","addProductToCar"
-"","7613","completePurchase()","","Tue Jun 03 17:46:52 GMT-03:00 2025","passed","Tue Jun 03 17:47:00 GMT-03:00 2025","","com.demoblaze.qualityassurance.tests.AddToCarTest","com.demoblaze.qualityassurance.tests.AddToCarTest","completePurchase"
